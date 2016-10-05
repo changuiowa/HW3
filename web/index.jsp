@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Salary Calculator</title>
+        <link rel="stylesheet" href = "HW3.css">
     </head>
     <body>
         <h1>Salary Calaulator</h1>
