@@ -13,29 +13,32 @@
         <link rel="stylesheet" href = "HW3.css">
     </head>
     <body>
-        <h1>Salary Calaulator</h1>
+        <div class = "smaller">
         
+        <h1>Simple Salary Calaulator</h1>
+        <hr>
+        <br>
         <form name ="salaryCalculationForm" action="results.jsp" method="post">
             <table>
                 <tbody>
                     <tr>
-                        <td>Hours Worked:</td>
-                        <td><input type="text" name="hours" size="50"</td>
+                        <td><p>Hours Worked:  </p></td>
+                        <td><input type="text" name="hours" size="25" required></td>
                     </tr>
                     
                     <tr>
-                        <td>Hourly Pay:</td>
-                        <td><input type="text" name="pay" size="50"</td>
+                        <td><p>Hourly Pay:  </p></td>
+                        <td><input type="text" name="pay" size="25" required></td>
                     </tr>
                     
                     <tr>
-                        <td>Pre-tax Deduct:</td>
-                        <td><input type="text" name="preTax" size="50"</td>
+                        <td><p>Pre-tax Deduct:  </p></td>
+                        <td><input type="text" name="preTax" size="25" required></td>
                     </tr>
                     
                     <tr>
-                        <td>Post-tax Deduct:</td>
-                        <td><input type="text" name="postTax" size="50"</td>
+                        <td><p>Post-tax Deduct:  </p></td>
+                        <td><input type="text" name="postTax" size="25" required></td>
                     </tr>
                     
                 </tbody>
@@ -46,7 +49,7 @@
             <input type="reset" value="Clear" id="clear">
             <input type="submit" value="Submit" id="submit">
             
-            
+        </div>    
         </form>
         
         

@@ -1,3 +1,49 @@
 body {
-    background-color: #193FCF;
+    background-color: #2F94EE;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+hr {
+    color: #FFFFFF;
+}
+
+p {
+    font:verdana;
+	color: #FFFFFF;
+    text-align: right;
+}
+
+p.result1 {
+    font:verdana;
+	color: blue;
+    text-align: right;
+}
+
+p.result2 {
+    font:verdana;
+	color: blue;
+    text-align: center;
+}
+
+table.design {
+	border: 1px solid #17202A;
+	border-collapse: collapse;
+	background-color: #FDFEFE;
+	width: 450px;
+}
+
+table.design th, td {
+	border: 1px solid #17202A;
+}
+
+
+.smaller{
+	width:40%;
+	float:left;
+	overflow:hidden;
+	padding:10px;
 }
